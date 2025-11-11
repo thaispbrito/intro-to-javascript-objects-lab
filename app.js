@@ -146,7 +146,7 @@ Solve Exercise 9 here:
 
 for (let i = 0; i < pokemon.length; i++) {
     if (pokemon[i].starter === true) {
-        console.log(pokemon[i]);
+        console.log(pokemon[i].name);
     }
 }
 
